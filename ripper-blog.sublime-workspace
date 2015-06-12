@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"data-target"
+			],
+			[
+				"font",
+				"font-family"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "alig",
+		"selected_items":
+		[
+			[
+				"alig",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git: add",
+				"Git: Add Current File"
+			],
+			[
+				"add",
+				"Git: Add Tag"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Git: stat",
+				"Git: Status"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ripper/myprojects/ripper-blog/ripper-blog.sublime-project",
+		"/home/ripper/myprojects/ripper-blog/app/views/Partials/head/_head.jade",
+		"/home/ripper/myprojects/ripper-blog/app/views/Partials/tail/_tail.jade",
+		"/home/ripper/myprojects/ripper-blog/application.html",
+		"/home/ripper/myprojects/ripper-blog/lib/Partials/head/_head.jade",
+		"/home/ripper/myprojects/ripper-blog/index.html",
+		"/home/ripper/myprojects/ripper-blog/lib/Section-main",
+		"/home/ripper/myprojects/ripper-blog/lib/Sections/Section-main/section_main.jade",
+		"/home/ripper/myprojects/ripper-blog/lib/index.jade",
+		"/home/ripper/myprojects/ripper-blog/lib/index.stylus",
+		"/home/ripper/myprojects/ripper-blog/lib/Sections/Section-main/section_main.stylus",
+		"/home/ripper/myprojects/ripper-blog/lib/Partials/navbar/navbar.jade",
+		"/home/ripper/mypractices/platzi/front-end/public/css/app.css",
+		"/home/ripper/mypractices/platzi/front-end/app.css",
+		"/home/ripper/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/ripper/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/ripper/mypractices/javascript/udacity/javascript_design_patterns/udacity_sources/ud989-school-attendance/index.html",
+		"/home/ripper/mypractices/javascript/udacity/javascript_design_patterns/myschoolattendance/code.js",
+		"/home/ripper/mypractices/javascript/udacity/javascript_design_patterns/myschoolattendance/index.html",
+		"/home/ripper/mypractices/javascript/udacity/javascript_design_patterns/code.js",
+		"/home/ripper/mypractices/javascript/udacity/javascript_design_patterns/ud989-cat-clicker-premium-vanilla/js/app.js",
+		"/home/ripper/mypractices/yeoman/eixfie/.jshintrc",
+		"/home/ripper/mypractices/yeoman/eixfie/Gruntfile.js",
+		"/home/ripper/mypractices/yeoman/eixfie/.editorconfig",
+		"/home/ripper/mypractices/yeoman/eixfie/app/_/inc/functions.php",
+		"/home/ripper/mypractices/yeoman/eixfie/app/_/inc/tail.php",
+		"/home/ripper/mypractices/yeoman/eixfie/app/_/inc/init.php",
+		"/home/ripper/mypractices/yeoman/eixfie/.bowerrc",
+		"/home/ripper/mypractices/yeoman/eixfie/router-dist.php",
+		"/home/ripper/mypractices/yeoman/eixfie/router.php",
+		"/home/ripper/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ripper/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ripper/my_scripts/libs.sh",
+		"/home/ripper/my_scripts/development/chrome.sh",
+		"/home/ripper/my_scripts/main/cairo_dock.sh",
+		"/home/ripper/my_scripts/main/repos.sh",
+		"/home/ripper/my_scripts/main/atunes.sh",
+		"/home/ripper/my_scripts/development/composer.sh",
+		"/home/ripper/my_scripts/main/tree.sh",
+		"/home/ripper/my_scripts/development/ipython.sh",
+		"/home/ripper/my_scripts/main/virtualbox.sh",
+		"/home/ripper/my_scripts/development/vagrant.sh",
+		"/home/ripper/my_scripts/development/emacs.sh",
+		"/home/ripper/my_scripts/ripper.sh",
+		"/home/ripper/my_scripts/development/repos.sh",
+		"/home/ripper/my_scripts/development/node.sh",
+		"/home/ripper/my_scripts/development/i3.sh",
+		"/home/ripper/.i3/config",
+		"/home/ripper/my_scripts/libs/developer_programs.sh",
+		"/home/ripper/my_scripts/development/django.sh",
+		"/home/ripper/my_scripts/utils.sh",
+		"/home/ripper/my_scripts/development/rails.sh",
+		"/home/ripper/my_scripts/development/ruby.sh",
+		"/home/ripper/my_scripts/main/numix_circle.sh",
+		"/home/ripper/my_scripts/main/git.sh",
+		"/home/ripper/my_scripts/main/zsh.sh",
+		"/home/ripper/my_scripts/main/curl.sh"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$",
+			"12,",
+			"day_present: 0",
+			"day_missed: 0,",
+			"day_missed:",
+			"open",
+			"wind",
+			"workspace"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 114.0
+	},
+	"output.git-push":
+	{
+		"height": 114.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/mypractices/udemy/landing-page/app/landing.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
