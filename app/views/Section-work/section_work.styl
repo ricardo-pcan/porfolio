@@ -1,0 +1,67 @@
+.Skill-Container
+  height 300px
+  position relative
+  padding 20px
+  &Content
+    position absolute
+    width 100%
+    min-height 100%
+    opacity 0.2
+    transition all 0.3s ease-in
+  &Element
+    float left
+    margin 0 10px 10px 0
+  &Mask
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    cursor pointer
+    opacity 0.8
+    visibility visible
+    border 100px solid rgba(0,0,0,0.2)
+    box-sizing border-box
+    transition all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620)
+    background #345FA2
+    & h3
+      color $white
+      font-size 2em
+      font-family $vt323
+      text-align center
+  &:hover 
+    & .Skill-ContainerContent
+      opacity 1
+    & .Skill-ContainerMask
+      border 0px double rgba(0,0,0,0.7)
+      opacity 0
+      visibility hidden
+    
+div#skill-
+  &html
+    background #004BD3
+  &css
+    background #00885D
+  &java
+    background #B07A7E
+  &javascript
+    background #D9D85F
+  &php
+    background #674EC0
+  &ruby
+    background #D22424
+  &ror
+    background #C55555
+  &mysql
+    background #D9A33E
+  &postgres
+    background #5575E2
+    & h3
+      font-size 0.7em
+      margin-top 25px
+  &ubuntu
+    background #E1792A
+  &trello
+    background #288DBE
+      
+  

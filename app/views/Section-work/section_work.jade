@@ -1,17 +1,53 @@
+include ../../../lib/ripper/mixins/jade/hover_elements.jade
+.clearfix
 section#Section-work
-  h2.Section-Title Perfil
+  h2.Section-title Perfil
   .Work-Skills
     .container-fluid
       .row
-        div(class="col-xs-12 col-sm-12 col-md-4 col-lg-4 Section-SkillContainer", id="programming_languages")
-          div.conatinerskilltest
-            include ../element/skills/css.jade
-        div(class="col-xs-12 col-sm-12 col-md-4 col-lg-4 Section-SkillContainer", id="frameworks")
-          
-        div(class="col-xs-12 col-sm-12 col-md-4 col-lg-4 Section-SkillContainer", id="data_bases")
-           
+        div(class="col-xs-12 col-sm-12 col-md-4 col-lg-4 Skill-Container", id="programming_languages")
+          .Skill-ContainerContent
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-html", 'HTML', '1 año', "skill-html")
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-css", "CSS", "1 año", "skill-css")
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-java-bold", "Java", "4 años", "skill-java")
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-javascript", "JS", "1 año", "skill-javascript")
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-php", "PHP", "5 meses", "skill-php")
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-ruby", "Ruby", "1 año", "skill-ruby")
+          .Skill-ContainerMask
+            h3 Lenguajes de programaci&oacute;n
+        .clearfix
+        div(class="col-xs-12 col-sm-12 col-md-4 col-lg-4 Skill-Container", id="frameworks")
+          .Skill-ContainerContent
+            div(class="Skill-ContainerElement")
+                mixin hover_circle_deep("icon-ruby-on-rails", 'RoR', '1 año', "skill-ror")
+          .Skill-ContainerMask
+            h3 Frameworks
+        .clearfix
+        div(class="col-xs-12 col-sm-12 col-md-4 col-lg-4 Skill-Container", id="data_bases")
+          .Skill-ContainerContent
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-mysql", 'MySQL', '1 año', "skill-mysql")
+            div(class="Skill-ContainerElement")
+              mixin hover_circle_deep("icon-postgres", 'Postgresql', '1 año', "skill-postgres")
+          .Skill-ContainerMask
+              h3 Bases de datos
       .row
-        div(class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-lg-offset-2", id="operative_systems")
-          
-        div(class="col-xs-12 col-sm-12 col-md-6 col-lg-4", id="others")
-          
+        div(class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-lg-offset-2 Skill-Container", id="operative_systems")
+          .Skill-ContainerContent
+            div(class="Skill-ContainerElement")
+                mixin hover_circle_deep("icon-ubuntu", 'Ubuntu', '1 año', "skill-ubuntu")
+          .Skill-ContainerMask
+            h3 Sistemas Operativos
+        .clearfix
+        div(class="col-xs-12 col-sm-12 col-md-6 col-lg-4 Skill-Container", id="others")
+          .Skill-ContainerContent
+            div(class="Skill-ContainerElement")
+                mixin hover_circle_deep("fa fa-trello", 'Trello', '1 año', "skill-trello")
+          .Skill-ContainerMask
+            h3 Otras
